@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Todos</title>
+
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./src/index.css">
+	
+</head>
+<body>
+	<header class="header">
+		<h1>todos</h1>
+		<input id="input" placeholder="What needs to be done?" autofocus>
+	</header>
+		
+	<main>
+		<ul class="list-group" id="todos"></ul>
+
+		<div class="filter" >
+			<button class="btn btn-outline-danger" id="all">All</button>
+			<button class="btn btn-outline-danger" id="active">Active</button>
+			<button class="btn btn-outline-danger" id="completed">Completed</button>
+			
+		</div>
+	</main>
+
+	<footer>
+		
+	</footer>
+	<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./src/index.js"></script>
+
+</html>
